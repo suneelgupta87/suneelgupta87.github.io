@@ -123,7 +123,46 @@ a {
   border-radius: 5px;
   background: var(--blue);
 }
+/* Header Resume Button */
 
+.resume-menu-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 16px !important;
+
+  border-radius: 8px;
+
+  color: #ffffff !important;
+
+  background: linear-gradient(135deg, #087fff, #168fff);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  font-weight: 700 !important;
+
+  box-shadow: 0 6px 18px rgba(16, 133, 255, 0.22);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.resume-menu-btn:hover {
+  color: #ffffff !important;
+
+  background: linear-gradient(135deg, #168fff, #319cff);
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 9px 25px rgba(16, 133, 255, 0.32);
+}
+
+.resume-menu-btn::after {
+  display: none !important;
+}
 /* =========================================================
    HERO
    ========================================================= */
