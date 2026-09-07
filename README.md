@@ -1,12 +1,20 @@
-# Suneel Gupta - Professional Portfolio
+# Suneel Gupta Portfolio
 
 Files:
-- index.html - main portfolio page
-- style.css - responsive styling
+- index.html
+- style.css
+- profile.jpg
 
-GitHub Pages:
-1. Upload/commit both files to the `main` branch of `suneelgupta87.github.io`.
-2. Settings -> Pages -> Deploy from a branch -> main -> / (root).
-3. Open https://suneelgupta87.github.io
+## GitHub Pages upload
+Upload all three files to the root of the `suneelgupta87.github.io` repository on the `main` branch.
 
-Note: Personal/private information from the CV (phone numbers, date of birth, family details and addresses) is intentionally not published on the public portfolio.
+The site uses the LinkedIn profile:
+https://www.linkedin.com/in/suneel-gupta-a5991526/
+
+GitHub:
+https://github.com/suneelgupta87
+
+Email:
+suneelgupta87@gmail.com
+
+Private CV details such as phone number, address and date of birth are intentionally not published.
