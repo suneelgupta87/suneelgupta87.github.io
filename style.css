@@ -533,6 +533,7 @@ img {
 }
 
 /* Contact */
+
 /* =========================================================
    CONTACT SECTION
    ========================================================= */
@@ -1024,18 +1025,6 @@ img {
   .phone-separator {
     margin: 0 4px;
   }
-}
-.contact-section .section-label {
-  color: #4ca6ff;
-}
-.contact-section h2 {
-  margin: 0 0 10px;
-  font-size: clamp(30px, 4vw, 44px);
-  line-height: 1.15;
-}
-.contact-section p:not(.section-label) {
-  margin: 0;
-  color: #cbdcf2;
 }
 
 .light-btn {
