@@ -1308,3 +1308,64 @@ a {
     margin: 0 4px;
   }
 }
+/* =========================================================
+   BACK TO TOP BUTTON
+   ========================================================= */
+
+.back-to-top {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: linear-gradient(135deg, #087fff, #168fff);
+  color: #ffffff;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  box-shadow: 0 8px 25px rgba(8, 127, 255, 0.35);
+
+  z-index: 100;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+
+  transition:
+    opacity 0.25s ease,
+    visibility 0.25s ease,
+    transform 0.25s ease;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(135deg, #168fff, #319cff);
+  box-shadow: 0 12px 30px rgba(8, 127, 255, 0.45);
+}
+
+@media (max-width: 760px) {
+  .back-to-top {
+    right: 16px;
+    bottom: 16px;
+    width: 44px;
+    height: 44px;
+    font-size: 21px;
+  }
+}
